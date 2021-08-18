@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import Card from './views/card'
 import React, { useEffect } from 'react'
 
-export default function App () {
+export default () => {
   const dispatch = useDispatch()
   const movies = useSelector((state) => state)
   console.log('movies', movies)
